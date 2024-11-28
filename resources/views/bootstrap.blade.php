@@ -19,7 +19,7 @@
     <div class="container py-2 px-4">
         <!-- Navbar Brand -->
         <a href="#" class="navbar-brand mb-0 h1">
-            <img class="img-fluid" src="{{ Vite::asset('resources/images/logo-white.svg') }}" alt="logo" style="width: 40px;">
+            <img class="img-fluid" src="{{Vite::asset('resources/images/logo-white.svg')}}">
         </a>
 
         <!-- Navbar Toggler -->
@@ -122,7 +122,7 @@
     <div class="container py-5 px-4">
         <div class="row">
             <div class="col-md-5 order-md-2">
-                <img class="img-fluid" src="{{ Vite::asset('resources/images/main.svg') }}" alt="main logo">
+                <img class="img-fluid" src="{{Vite::asset('resources/images/main.svg')}}">
             </div>
             <div class="col-md-7 order-md-1">
                 <h1 class="mt-4 display-3">Build fast, responsive sites with Bootstrap</h1>
@@ -159,7 +159,7 @@
                 </a>
             </div>
             <div class="col-lg-6">
-                <img class="img-fluid" src="{{ Vite::asset('resources/images/bs-icons.png') }}" alt="Bootstrap Icons">
+                <img class="img-fluid" src="{{Vite::asset('resources/images/bs-icons.png')}}">
             </div>
         </div>
     </div>
@@ -182,7 +182,7 @@
                 </a>
             </div>
             <div class="col-lg-6">
-                <img class="img-fluid" src="{{ Vite::asset('resources/images/bs-themes.png') }}" alt="Bootstrap Themes">
+                <img class="img-fluid" src="{{Vite::asset('resources/images/bs-themes.png')}}">
             </div>
         </div>
     </div>
@@ -196,7 +196,7 @@
             <div class="col-lg-3 mb-5">
                 <a href="#" class="logo text-decoration-none">
                     <div class="d-flex">
-                        <img class="img-fluid" src="{{ Vite::asset('resources/images/logo-black.svg') }}" alt="Bootstrap Logo" style="width: 40px;">
+                        <img class="img-fluid" src="{{Vite::asset('resources/images/logo-black.svg')}}">
                         <div class="fs-5 ms-2 text-black">Bootstrap</div>
                     </div>
                 </a>
@@ -254,7 +254,7 @@
             </div>
         </div>
     </div>
-    @vite('resources/js/app.js')
+
 </div>
 
 </body>
